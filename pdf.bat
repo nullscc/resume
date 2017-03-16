@@ -1,0 +1,1 @@
+python resume.py tex < resume.md | pandoc --template=default.latex --latex-engine=xelatex -H header.tex -o resume.pdf

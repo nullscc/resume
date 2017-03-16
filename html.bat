@@ -1,0 +1,1 @@
+python resume.py html --no-gravatar < resume.md |  pandoc -t html -c resume.css -o resume.html

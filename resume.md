@@ -1,71 +1,55 @@
-Markdown Resumé
+谢志伟 - 男,25岁
 ===============
 
-[Markdown](https://raw.github.com/mwhite/resume/master/resume.md) -> [PDF](https://raw.github.com/mwhite/resume/master/resume.pdf), [HTML](http://mwhite.github.com/resume), and more
-<http://github.com/mwhite/resume>
+手机/微信:18682050524
+邮箱: <jarves@foxmail.com>
 
-Interests
+目标职位
 ---------
+*   手游服务端开发，坐标深圳，薪资要求:15~18K
 
-*   Creating beautiful resumés from simple Markdown documents
-
-
-Work Experience
----------------
-
-*   **Word Processor** (Redmond, WA)
-
-    *Junior Resumé Maker*, 2006 - 2007
-
-    -   Intermingled presentation and content
-    -   Styling was a pain, so either didn't do it or found a half-decent
-        template and didn't mess with it
-
-*   **\LaTeX\ + pdflatex**
-
-    *Senior Resumé Maker*, 2008 - 2010
-
-    -   Edited verbose \LaTeX\ documents in a text editor
-    -   Mixed content and presentation to achieve pixel-perfection
-    -   Installed and configured the unusual TeX setups required by the
-        best-looking \LaTeX\ resumés
-
-*   **LinkedIn, StackOverflow Careers, vizualize.me, etc**
-
-    *Web Resumé Intern*, August 2010
-
-    -   Entered data, adapting to different data models and formatting
-        limitations
-    -   Attempted to customize PDF exports and remove default resumé elements,
-        to no avail
-
-*   **Markdown with Pandoc**
-
-    *Resumé Architect*, February 2011 - present
-
-    -   Write in one format (Markdown), convert to many formats (PDF, HTML, ODT,
-        DOCX, and more)
-    -   Style HTML output with CSS and PDF output with a custom \LaTeX\ header
-    -   Use a simple pre-processor to define per-format operations on the
-        Markdown input or its parts, such as moving contact information to the
-        top right of the page in both HTML and PDF output.
-    -   Use a text-based resumé when needed in a pinch
-    -   Use version control, including free hosting on Github
-
-
-Education
+个人技能
 ---------
+*   英语四级水平
+*   熟练掌握C、lua、C++、python
+*   熟悉TCP/IP协议，熟读并理解 TCP/IP详解&UNP 卷一
+*   熟练掌握linux及其网络编程，熟练搭建线上开发环境
+*   熟悉mysql及redis数据库
+*   精通skynet
+*   分析skynet源码:<http://nulls.cc/tags/skynet源码分析>
+*   注释skynet源码:<https://github.com/nullscc/skynet_with_note>
 
-*   **Github University** (World Wide Web)
+工作经验
+---------
+*   **深圳市爱谱互娱科技有限公司&深圳路游科技有限公司**(2016.4 - 至今)
 
-    *B.S. in Submodules*, May 2012
+    *部落世界(卡牌/ARPG类型)* — 2016.4~2017.1
+    -   入职三个月后担任服务端主程工作，独自负责服务端开发，经历开发、一测、二测、上线
+    -   主要工作:服务端按照skynet特性重构，并开发后续所有功能；
+        包括任务、GM工具、战斗、挂机、VIP、福利、聊天、洗练、拍卖行、活动、多英雄副本、SDK接入、排行榜、热更新等系统
+    -   处理线上严重bug有(弱联网问题/skynet伪并发问题):刷物品、服务器发生雪崩造成CPU占用过高、玩家数据回档
+    -   采用单redis数据库
 
+    *联网版2048* — 2017.1~2017.3
+    -   在2048的基础上加上联网双人对战功能
+    -   服务端主程，历时两月独自开发2048核心玩法及AI对战
+    -   网关使用 skynet_package
+    -   核心玩法设计为:客户端与服务器使用mt19937生成相同的随机数列，分开进行游戏进程，服务端做校验。
+    -   AI对战实现:将玩家一场游戏的随机种子、操作方向、操作间隔存入数据库，需要时从库中取出进行实时演算
+    -   采用单mysql数据库，mysql连接池，读写分离
 
-Skills
+*   **深圳市视纬通科技有限公司**(2014.6 - 2016.4)
+    -   一家定制电视机主板的公司
+    -   主要工作负责linux平台下的主板软件功能定制、开发、维护
+
+教育背景
+---------
+*   **湖南工业大学|电子信息工程** (2010.9-2014.7)
+    -   大学本科(全日制4年)
+
+自我评价
 ------
-
-*   Very experienced with Python, Markdown, \LaTeX
-
-*   Familiar with GNU Make, bash
-
-
+*   优秀的快速学习能力
+*   高度的责任心
+*   高效的工作效率
+*   最后，绝不打策划！！！
